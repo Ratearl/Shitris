@@ -1,15 +1,9 @@
 import pygame
-from Form import
+from Form import Quadrat
 
 class Screen():
     screen = pygame.display.set_mode((800, 800))
     pygame.display.set_caption('Shitris')
-
-    #x= 400
-    #y= 400
-    #width = 40
-    #height = 60
-    #vel = 5
 
     running = True
 
@@ -20,7 +14,7 @@ class Screen():
             if event.type == pygame.QUIT:
                 running = False
 
-        #pygame.draw.rect(screen, (255, 0, 0), (x, y, width, height))
+        Quadrat()
 
         pygame.display.flip()
 
