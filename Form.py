@@ -1,8 +1,8 @@
 import pygame
 
-class Quadrat():
+def Quadrat(screen):
 
-    screen = pygame.display.set_mode((800, 1000))
+    #screen = pygame.display.set_mode((800, 1000))
 
     x= 400
     y= 400
